@@ -10,28 +10,28 @@
 //=====================================================================
 // MCP BASIC
 //=====================================================================
-const IUINT32 IKCP_RTO_NDL = 30;		// no delay min rto
-const IUINT32 IKCP_RTO_MIN = 100;		// normal min rto
-const IUINT32 IKCP_RTO_DEF = 200;
-const IUINT32 IKCP_RTO_MAX = 60000;
-const IUINT32 IKCP_CMD_PUSH = 81;		// cmd: push data
-const IUINT32 IKCP_CMD_ACK  = 82;		// cmd: ack
-const IUINT32 IKCP_CMD_WASK = 83;		// cmd: window probe (ask)
-const IUINT32 IKCP_CMD_WINS = 84;		// cmd: window size (tell)
-const IUINT32 IKCP_ASK_SEND = 1;		// need to send IKCP_CMD_WASK
-const IUINT32 IKCP_ASK_TELL = 2;		// need to send IKCP_CMD_WINS
-const IUINT32 IKCP_WND_SND = 32;
-const IUINT32 IKCP_WND_RCV = 128;       // must >= max fragment size
-const IUINT32 IKCP_MTU_DEF = 1400;
-const IUINT32 IKCP_ACK_FAST	= 3;
-const IUINT32 IKCP_INTERVAL	= 100;
-const IUINT32 IKCP_OVERHEAD = 24;
-const IUINT32 IKCP_DEADLINK = 20;
-const IUINT32 IKCP_THRESH_INIT = 2;
-const IUINT32 IKCP_THRESH_MIN = 2;
-const IUINT32 IKCP_PROBE_INIT = 7000;		// 7 secs to probe window size
-const IUINT32 IKCP_PROBE_LIMIT = 120000;	// up to 120 secs to probe window
-const IUINT32 IKCP_FASTACK_LIMIT = 5;		// max times to trigger fastack
+const IUINT32 IMCP_RTO_NDL = 30;		// no delay min rto
+const IUINT32 IMCP_RTO_MIN = 100;		// normal min rto
+const IUINT32 IMCP_RTO_DEF = 200;
+const IUINT32 IMCP_RTO_MAX = 60000;
+const IUINT32 IMCP_CMD_PUSH = 81;		// cmd: push data
+const IUINT32 IMCP_CMD_ACK  = 82;		// cmd: ack
+const IUINT32 IMCP_CMD_WASK = 83;		// cmd: window probe (ask)
+const IUINT32 IMCP_CMD_WINS = 84;		// cmd: window size (tell)
+const IUINT32 IMCP_ASK_SEND = 1;		// need to send IMCP_CMD_WASK
+const IUINT32 IMCP_ASK_TELL = 2;		// need to send IMCP_CMD_WINS
+const IUINT32 IMCP_WND_SND = 32;
+const IUINT32 IMCP_WND_RCV = 128;       // must >= max fragment size
+const IUINT32 IMCP_MTU_DEF = 1400;
+const IUINT32 IMCP_ACK_FAST	= 3;
+const IUINT32 IMCP_INTERVAL	= 100;
+const IUINT32 IMCP_OVERHEAD = 24;
+const IUINT32 IMCP_DEADLINK = 20;
+const IUINT32 IMCP_THRESH_INIT = 2;
+const IUINT32 IMCP_THRESH_MIN = 2;
+const IUINT32 IMCP_PROBE_INIT = 7000;		// 7 secs to probe window size
+const IUINT32 IMCP_PROBE_LIMIT = 120000;	// up to 120 secs to probe window
+const IUINT32 IMCP_FASTACK_LIMIT = 5;		// max times to trigger fastack
 
 //---------------------------------------------------------------------
 // encode / decode
